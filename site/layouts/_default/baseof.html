@@ -2,6 +2,7 @@
 <html lang="{{ $.Site.Language.Lang }}">
   <head>
     <meta charset="utf-8">
+    <meta name="keywords" content="ethnography{{ with .Params.tags }}, {{delimit . ", "}}{{ end }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
     <title>{{ $.Site.Title }}</title>
