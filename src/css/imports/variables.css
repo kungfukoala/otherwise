@@ -1,7 +1,14 @@
 :root {
     --font-family: "garvis-pro";
-    --font-headline: "program";
+    --font-headline: "termina";
     --color: #333333;
     --weight-bold: 700;
     --weight-black: 900;
+    /* colors */
+    --color-black: rgb(0, 0, 0);
+    --color-cream: rgb(228, 197, 164);
+    --color-lightblue: rgb(191, 201, 198);
+    --color-earth: rgb(199, 116, 87);
+    --color-purple: rgb(73, 24, 123);
+    --color-violet: rgb(147, 39, 143);
 }
