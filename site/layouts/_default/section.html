@@ -1,6 +1,8 @@
 {{ define "main" }}
 <main>
+  <h1>{{ .Title }}</h1>
   {{ .Content }}
+  <span class="modifier">Authors</span> {{ .Params.authors }}
   <ul class="contents">
     {{ range .Data.Pages }}
     <li>

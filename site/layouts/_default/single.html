@@ -1,11 +1,12 @@
 {{ define "main" }}
 
 <section>
-  <div class="content container">
-    <a href="{{ .Site.BaseURL }}">Return</a>
+  <div><a href="{{ .Site.BaseURL }}indianlands/">Return</a></div>
+  <div>{{ .Params.year }}</div>
+  <div>
+
     <h1>{{ .Params.title }}</h1>
-    {{ .Params.year }}
-  {{ .Content }}
+    {{ .Content }}
   </div>
 </section>
 
