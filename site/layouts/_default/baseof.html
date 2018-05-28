@@ -7,7 +7,7 @@
     <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
     <title>{{ $.Site.Title }}</title>
     <link rel="stylesheet" href="https://use.typekit.net/uur5tdy.css">
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css"/>
   </head>
   <body>
 

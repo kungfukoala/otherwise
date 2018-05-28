@@ -8,9 +8,10 @@
   Or add your statements here:
  */
 body {
-  font-family: var(--font-family), sans-serif;
+  font-family: var(--font-family), serif;
   font-size: 1em;
   color: var(--color);
+  background-color: white;
 }
 
 section {
@@ -19,4 +20,9 @@ section {
 
 section div {
   lost-column: 1/2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headline), sans-serif;
+  font-size:5em;
 }
